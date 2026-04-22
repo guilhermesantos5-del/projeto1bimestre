@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Formulário | Recrutamento</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body id="topo">
+
+<header>
+    <nav>
+        <ul class="menu">
+            <li><a href="../index.html">Início</a></li>
+            <li><a href="Pagina1.html">Página 1</a></li>
+            <li><a href="Formulario.html">Formulário</a></li>
+        </ul>
+    </nav>
+</header>
+
+<h1 class="centralizado">Recrutamento do Clarim Diário</h1>
+
+<main>
+    <form>
+        <fieldset>
+            <legend>Inscrição de Fã</legend>
+            1. Nome Completo: <input type="text" required><br><br>
+            2. Email de Contato: <input type="email" required><br><br>
+            3. Senha Secreta: <input type="password" required><br><br>
+            4. Idade do Recruta: <input type="number"><br><br>
+            5. Data de Nascimento: <input type="date"><br><br>
+            
+            6. Gênero (Obrigatório):<br>
+            <input type="radio" name="g" required> Masculino 
+            <input type="radio" name="g"> Feminino 
+            <input type="radio" name="g"> Outro<br><br>
+
+            7. Interesses (Obrigatório):<br>
+            <input type="checkbox" name="i" required> Ler HQs
+            <input type="checkbox" name="i"> Ver Filmes
+            <input type="checkbox" name="i"> Jogar no PS5<br><br>
+
+            8. Cor do Uniforme Favorita: <input type="color"><br><br>
+            
+            9. Cidade de Atuação:
+            <select>
+                <option>Nova York</option>
+                <option>São Paulo</option>
+                <option>Rio de Janeiro</option>
+            </select><br><br>
+
+            10. Deixe um comentário para o Clarim: <br>
+            <textarea rows="4" cols="30"></textarea><br><br>
+
+            <input type="submit" value="Enviar Inscrição">
+            <input type="reset" value="Limpar Formulário">
+        </fieldset>
+    </form>
+
+    <div class="centralizado">
+        <a href="#topo" class="anchor-link">Voltar ao Topo 🕸️</a>
+    </div>
+</main>
+</body>
+</html>
